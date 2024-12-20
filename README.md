@@ -47,4 +47,4 @@ Upon success, the script will print the uploaded file's URL:
 
     https://api.monarchupload.cc/v3/file/url
 
-© 2024 Monarch Upload Project. All rights reserved.# html-to-markdown
+© 2024 Monarch Upload Project. All rights reserved.

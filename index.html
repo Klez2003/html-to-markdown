@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monarch Upload Script</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        code, pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            display: block;
+            margin-bottom: 1em;
+            overflow-x: auto;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Monarch Upload Script</h1>
+        <p>A lightweight Python script for uploading images, GIFs, and videos to Monarch Upload API.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#dependencies">Dependencies</a></li>
+                <li><a href="#example">Example</a></li>
+            </ul>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Supports chunked uploads for large files.</li>
+                <li>Works with various file types: <code>.png</code>, <code>.jpg</code>, <code>.jpeg</code>, <code>.gif</code>, <code>.bmp</code>, <code>.webp</code>, <code>.tiff</code>, <code>.mp4</code>, <code>.mkv</code>, <code>.avi</code>, <code>.mov</code>, <code>.flv</code>, <code>.wmv</code>, <code>.mp3</code>, <code>.wav</code>, <code>.ogg</code>, <code>.webm</code>.</li>
+                <li>Handles multi-part form data for API communication.</li>
+            </ul>
+        </section>
+
+        <section id="usage">
+            <h2>Usage</h2>
+            <p>Run the script from your terminal:</p>
+            <pre><code>python3 monarch_upload.py &lt;file_path&gt;</code></pre>
+            <p>Replace <code>&lt;file_path&gt;</code> with the path to the file you want to upload.</p>
+        </section>
+
+        <section id="dependencies">
+            <h2>Dependencies</h2>
+            <p>Ensure you have the following Python modules installed:</p>
+            <pre><code>pip install requests</code></pre>
+        </section>
+
+        <section id="example">
+            <h2>Example</h2>
+            <p>To upload a file named <code>video.mp4</code>, run:</p>
+            <pre><code>python3 monarch_upload.py video.mp4</code></pre>
+            <p>Upon success, the script will print the uploaded file's URL:</p>
+            <pre><code>https://api.monarchupload.cc/v3/file/url</code></pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Monarch Upload Project. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
