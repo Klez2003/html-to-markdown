@@ -1,4 +1,4 @@
-  Monarch Upload Script body { font-family: Arial, sans-serif; margin: 0; padding: 20px; line-height: 1.6; background-color: #f9f9f9; color: #333; } h1, h2, h3 { color: #2c3e50; } code, pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; font-family: monospace; display: block; margin-bottom: 1em; overflow-x: auto; } a { color: #3498db; text-decoration: none; } a:hover { text-decoration: underline; } ul { list-style-type: square; margin-left: 20px; }
+  Monarch Upload Script
 
 Monarch Upload Script
 =====================
